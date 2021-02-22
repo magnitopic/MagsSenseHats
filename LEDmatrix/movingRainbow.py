@@ -1,3 +1,4 @@
+# coding=utf-8
 from sense_hat import SenseHat
 import time
 
