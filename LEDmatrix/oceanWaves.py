@@ -2,6 +2,7 @@ from sense_hat import SenseHat
 import time
 
 sense = SenseHat()
+sense.clear()
 
 c = [[0,255,255],
     [3, 23, 252],
