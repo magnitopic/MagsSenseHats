@@ -12,3 +12,5 @@ The library documentation: https://pythonhosted.org/sense-hat/
 ```bash
 sudo apt install sense-hat
 ```
+
+![SenseHat](https://projects-static.raspberrypi.org/projects/getting-started-with-the-sense-hat/653ef80ded139ef3aa6e17c5f24936e6c9b63b6a/en/images/sense-hat.png)
