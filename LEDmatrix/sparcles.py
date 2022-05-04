@@ -1,6 +1,6 @@
 from multiprocessing import Process
 from sense_hat import SenseHat
-import random, os, time, glob
+import random, time
 
 sense = SenseHat()
 sense.clear()

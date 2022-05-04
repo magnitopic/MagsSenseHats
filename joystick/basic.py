@@ -5,7 +5,7 @@ sense = SenseHat()
 
 while True:
 	event = sense.stick.wait_for_event()
-	print("The joystick was {} {}".format(event.action, event.direction))
+	print(f"The joystick was {event.action} {event.direction}")
 	sleep(0.3)
 	event = sense.stick.wait_for_event()
-	print("The joystick was {} {}".format(event.action, event.direction))
+	print(f"The joystick was {event.action} {event.direction}")
