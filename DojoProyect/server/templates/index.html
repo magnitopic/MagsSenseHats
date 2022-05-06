@@ -7,8 +7,8 @@
 		<title>Document</title>
 	</head>
 	<body>
-		{{pyload["temp"][0]}}
-		{{pyload["humidity"][0]}}
-		{{pyload["pressure"][0]}}
+		{% for userName in names %}
+			<a href="/{{userName}}">{{userName}}'s page</a>
+		{% endfor %}
 	</body>
 </html>
