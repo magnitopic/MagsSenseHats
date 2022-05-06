@@ -13,6 +13,6 @@ data = {
     "pressure": [pressure]
 }
 
-f = open("./api/combustibles.json", "w")
+f = open("../data/mag.json", "w")
 f.write(data)
 f.close()
