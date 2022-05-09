@@ -15,9 +15,9 @@ def main():
 def userData(name):
     if name not in getNames():
         return redirect("/")
-    pyload=getInfo(name)
-    pyload["name"]=name
-    
+    pyload = getInfo(name)
+    pyload["name"] = name
+
     return render_template("information.html", pyload=pyload)
 
 
